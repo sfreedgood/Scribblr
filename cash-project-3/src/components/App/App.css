@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+  /* height:100%; */
+}
+.para-outer{
+  width:100vw;
+  height:130vh;
+  background-image: url(../images/typewriter.jpg);
+  background-size: cover;
+  /* position:relative ; */
+  /* position: fixed; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#scribbls-h2{
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+
+
+.box{
+  padding:11pt;
+  margin-top:20pt;
+}
+
+.box-controller {
+  text-align: center;
+  margin:20px auto;
+ 
+  visibility: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 24em;
+  min-width: 21em;
+  height: 35px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+  box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+  align-items: center;
+  transition: visibility 0.5s ease-out;
+}
+ .controller {
+  flex: 1;
+  text-align: center;
+  height: 100%;
+  line-height: 2;
+  cursor: pointer;
+  background: rgba(255,255,255,.8);
+} 
+.controller:hover{
+  background: rgba(218,224,239,.7);
+  
+}
+label{
+  flex:0;
+  text-shadow: 1px 1px white;
+  background: rgba(255,255,255,.8);
+}
+.signup-input{
+  border-radius:2pt;
+  border: 2px solid white;
+}
+.signup-input:hover{
+  border: 2px solid rgba(218,224,239,.7);
+}
+.signup-button{
+  width:80px;
+  margin:0 auto;
+  border-radius: 2pt;
+}
+.signup-button:hover{
+  background:rgba(218,224,239,.7);
+}
+.login-button{
+  width:60px;
+  margin: 0 auto;
+  border-radius:2pt;
+}
+.login-button:hover{
+background:rgba(218,224,239,.7);
+}
+.login-input{
+  flex:1;
+  border-radius: 3px;
+  
+  border: 2px solid white;
+}
+.login-input:hover{
+  border: 2px solid rgba(218,224,239,.7);
+}
+.selected-controller {
+  transition: border 0.5s ease-out;
+  border-bottom: 2px solid rgba(218,224,241,.7);
+}
+
+.box-container {
+  margin: 0 auto;
+  margin-top:20pt;
+  display: flex;
+  flex-direction: column;
+  max-width: 24em;
+  min-width: 21em;
+  box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+  background:rgba(255,255,255,.8);
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.inner-container {
+  transition: visibility 0.2s ease-out;
+}
+
+.inner-container.show {
+  visibility: visible;
+}
+.header{
+  padding:10px;
+  /* border-bottom: 2px solid black; */
+}
+
+.password-state {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.pwd {
+  height: 6px;
+  flex: 1;
+  visibility: hidden;
+}
+
+.pwd-weak {
+  background-color: #e74c3c;
+}
+
+.pwd-medium {
+  background-color: #3498db;
+}
+
+.pwd-strong {
+  background-color: #2ecc71;
+}
+
+/* Search Bar */
+.css-10nd86i,
+.css-vj8t7z{
+ 
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  
+}
+
+.card-title{
+  font-size:20px;
+  
+}
+.card{
+  margin: 20px auto;
+  height:300px;
+ 
+
+}
+.scribbl-post:hover{
+  transform: scale(1.1);
+  transition: .4s;
+ 
+}
+.grid{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ 
+}
+.scribbl-content{
+  background: url(../images/typewriter.jpg);
+  width:800px;
+  margin:0 auto;
+  padding:10px;
+  background: rgba(255,255,255,.8);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.updateForm{
+ margin-bottom:-200px;
+}
+.user-profile{
+  display: flex;
+  flex-direction: column;
+  padding-top:50px;
+}
+.user-profile2{
+  width:500px;
+  height:300px;
+  padding-top:100px;
+  margin: 0 auto;
+  background: rgba(255,255,255,.8);
+}
+
+

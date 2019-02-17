@@ -1,0 +1,52 @@
+h1{
+    font-size:55pt;
+    text-align:left;
+    margin: 0;
+    font-family: 'Life Savers', cursive;
+}
+.header{
+    background: white;
+}
+
+.nav a{
+    float:right;
+    text-decoration: none;
+    color:rgba(218,224,239,.7);
+    cursor: pointer;
+    padding:5pt;
+    font-family:'Ubuntu', sans-serif;
+
+}
+nav a:hover{
+    background:rgba(218,224,239,.7);
+    color:white;
+    transition: 0.5s;
+
+}
+h3{
+    text-align: left;
+    margin:0;
+    font-family:'Ubuntu', sans-serif;
+    font-weight:500;
+    font-size: 17pt;
+
+}
+#post-form{
+    padding:15pt;
+    margin:20pt;
+}
+.mr-auto{
+    margin-right: 0;
+    margin-left:800px;
+
+}
+
+.logo-redirect{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-redirect:hover{
+    text-decoration: none;
+    color: black;
+}
