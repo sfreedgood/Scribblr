@@ -3,6 +3,8 @@
 ## The App
 [Click here for the launched App](https://scribblerr.herokuapp.com/)
 
+Hosted for free on Heroku, may take several moments to load, please be patient.
+
 ## Description
 Scribblr is an app designed for today's modern writer. It is a way to share your work in a safe space and to allow other writers to read and help improve your writing. It is essentially an onine writers workshop. Inspired by writers trying to improve their craft, Scribblr will allow you to share your work with others.
 
